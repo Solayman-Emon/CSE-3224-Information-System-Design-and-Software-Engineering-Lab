@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/seeimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:id="@+id/seepay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="payment:"
+                />
+
+            <TextView
+                android:id="@+id/seeitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item:"
+                />
+
+
+
+            <TextView
+                android:id="@+id/seecity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="city:"
+                />
+
+            <TextView
+                android:id="@+id/seearea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="area:"
+                />
+
+
+            <TextView
+                android:id="@+id/seeaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="additional address:"
+                />
+
+
+            <TextView
+                android:id="@+id/seeroom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Room no:"
+                />
+
+            <TextView
+                android:id="@+id/seekitchen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Kitchen no:"
+                />
+
+            <TextView
+                android:id="@+id/seebath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="bath no:"
+                />
+
+            <TextView
+                android:id="@+id/seephn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Phone:"
+                />
+
+            <TextView
+                android:id="@+id/seerent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Rent:"
+                />
+
+            <Button
+                android:id="@+id/seedel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delete"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

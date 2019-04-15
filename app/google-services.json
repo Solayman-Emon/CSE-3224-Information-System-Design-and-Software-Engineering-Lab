@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "367374850945",
+    "firebase_url": "https://austisd32.firebaseio.com",
+    "project_id": "austisd32",
+    "storage_bucket": "austisd32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367374850945:android:5fda1d1d650324da",
+        "android_client_info": {
+          "package_name": "machersstudio.aust.com.anytlet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367374850945-v99nm1pu5hqf8t4hhk45gen8bineific.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "machersstudio.aust.com.anytlet",
+            "certificate_hash": "e738081d848c6f8af6ae63cac3a68553b5e9ca95"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNRCART9bblphXiIIqfRFUUA11nkYZyfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367374850945-4lkcgauni7lmdnsl8dj83v5ctptgdigp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

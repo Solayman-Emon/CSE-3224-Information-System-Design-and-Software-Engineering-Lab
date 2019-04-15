@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+          <ListView
+              android:listSelector="#2f22fffb"
+              android:dividerHeight="5dp"
+              android:divider="#74ffffff"
+              android:id="@+id/adlist"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+              >
+
+          </ListView>
+
+</LinearLayout>

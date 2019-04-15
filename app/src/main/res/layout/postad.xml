@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="payment:"
+                 />
+             <Spinner
+                 android:id="@+id/spinner1"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@android:drawable/btn_dropdown"
+                 android:spinnerMode="dropdown"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Item:"
+                 />
+             <Spinner
+                 android:id="@+id/spinner2"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@android:drawable/btn_dropdown"
+                 android:spinnerMode="dropdown"/>
+             <Button
+                 android:id="@+id/pickimage"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="pick image"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="city:"
+                 />
+             <EditText
+                 android:id="@+id/city"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="area:"
+                 />
+             <EditText
+                 android:id="@+id/area"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="additional address:"
+                 />
+             <EditText
+                android:id="@+id/adaddress"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="Room no:"
+                 />
+             <EditText
+                android:id="@+id/roomno"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="Kitchen no:"
+                 />
+             <EditText
+                 android:id="@+id/kitchenno"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="bath no:"
+                 />
+             <EditText
+                 android:id="@+id/bathno"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="Phone:"
+                 />
+             <EditText
+                 android:id="@+id/phone"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:singleLine="true"
+                 android:text="Rent:"
+                 />
+             <EditText
+                android:id="@+id/rent"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+             <Button
+                 android:id="@+id/post"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="post"/>
+
+         </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
